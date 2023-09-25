@@ -74,14 +74,15 @@ body {
 
 .output {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* background-color: lightcoral; */
 }
 
 .output-1 {
     resize: none;
     border: none;
     border-radius: 0.38rem;
-    width: 13.1875rem;
+    width: 20rem;
     height: 2.4375rem;
     flex-shrink: 0;
     background-color: #273549;
