@@ -2,10 +2,33 @@
 <html>
     <head>
         <title>Password Generator</title>
+        <!-- CSS -->
         <link rel="stylesheet" href="index.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;800&display=swap" rel="stylesheet">
+        
+        <!-- JS script -->
         <script src="index.js"></script>
     </head>
     <body>
-        <h1>Password Generator</h1>
+        <div class="main-container">
+            <div class="title">
+                <h1 class="title-1">Generate a</h1>
+                <h1 class="title-2">random password</h1>
+                <p class="title-subheading">Never use an incorrect password again.</p>
+            </div>
+            <div class="button">
+                <button class="submit-btn">Generate passwords</button>
+                <hr class="button-hr"/>
+            </div>
+            <div class="output">
+                <input readonly id="output-1" class="output-1" ></input>
+                <input readonly id="output-2" class="output-1"></input>
+            </div>
+        </div>
     </body>
 </html>
