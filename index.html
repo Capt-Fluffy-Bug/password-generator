@@ -19,7 +19,11 @@
                 <h1 class="title-2">random password</h1>
                 <p class="title-subheading">Never use an incorrect password again.</p>
             </div>
-            <div class="button">
+            <div class="button-container">
+                <div class="slider-container">
+                    <p class="slider-title" id="password-length-title"></p>
+                    <input type="range" min="1" max="25" value="15" id="password-length" class="slider"></input>
+                </div>
                 <button id="button" class="submit-btn">Generate passwords</button>
                 <hr class="button-hr"/>
             </div>
