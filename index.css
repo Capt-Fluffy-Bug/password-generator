@@ -74,8 +74,7 @@ body {
 
 .output {
     display: flex;
-    justify-content: space-around;
-    /* background-color: lightcoral; */
+    gap: 5rem;
 }
 
 .output-1 {
