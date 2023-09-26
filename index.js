@@ -33,3 +33,20 @@ passwordSlider.oninput = function() {
     lengthTitle.textContent = `Password Length: ${passLength}`
 }
 
+output1.addEventListener("click", function() {
+    let text = output1.textContent
+    navigator.clipboard.writeText(text)
+    output1.nextElementSibling.textContent = "Copied!"
+    setTimeout(function() {
+        output1.nextElementSibling.textContent = ""
+    }, 2000)
+})
+
+output2.addEventListener("click", function() {
+    let text = output2.textContent
+    navigator.clipboard.writeText(text)
+    output2.nextElementSibling.textContent = "Copied!"
+    setTimeout(function() {
+        output2.nextElementSibling.textContent = ""
+    }, 2000)
+})
