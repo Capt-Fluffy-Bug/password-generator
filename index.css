@@ -109,6 +109,28 @@ body {
     margin: 3rem 0rem;
 }
 
+
+.checkbox-container {
+    margin-bottom: 2rem;
+
+    padding-right: 0.9375rem;
+}
+
+
+.checkbox {
+    accent-color: #10B981;
+}
+
+.checkbox-label {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+
 .submit-btn {
     border-radius: 0.38rem;
     background: #10B981;
