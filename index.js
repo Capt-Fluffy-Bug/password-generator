@@ -147,32 +147,23 @@ output2.addEventListener("click", function () {
 alphaCheck.addEventListener("change", function () {
   if (this.checked) {
     characters.push(...alphabet);
-    console.log(this.value);
-
   } else {
     characters = characters.filter((x) => !alphabet.includes(x));
-    console.log(`unselected ${this.value}`);
   }
 });
 
 numCheck.addEventListener("change", function () {
   if (this.checked) {
     characters.push(...numbers);
-    console.log(this.value);
-
   } else {
     characters = characters.filter((x) => !numbers.includes(x));
-    console.log(`unselected ${this.value}`);
   }
 });
 
 charCheck.addEventListener("change", function () {
   if (this.checked) {
     characters.push(...chars);
-    console.log(this.value);
-
   } else {
     characters = characters.filter((x) => !chars.includes(x));
-    console.log(`unselected ${this.value}`);
   }
 });
